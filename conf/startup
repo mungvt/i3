@@ -1,8 +1,0 @@
-exec --no-startup-id nm-applet
-exec --no-startup-id dex --autostart --environment i3
-exec --no-startup-id ibus-daemon -drx
-exec --no-startup-id copyq
-exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
-exec --no-startup-id feh --no-fehbg --bg-fill $HOME/Pictures/wallpaper.jpg
-exec --no-startup-id terminator
-exec --no-startup-id google-chrome-stable

@@ -1,10 +1,10 @@
-include conf/sound
-include conf/brightness
-include conf/bindkeys
-include conf/startup
-include conf/workspaces
-include conf/window
-include conf/assign
+include conf/sound.conf
+include conf/brightness.conf
+include conf/bindkeys.conf
+include conf/startup.conf
+include conf/workspaces.conf
+include conf/window.conf
+include conf/assign.conf
 
 
 set $mod Mod4
@@ -15,7 +15,7 @@ default_border pixel 0
 gaps top 0
 gaps inner 5
 
-exec_always --no-startup-id "autorandr --change"
+exec_always autorandr --change
 exec_always --no-startup-id "killall polybar; polybar --config=$HOME/.config/i3/polybar/config mybar"
 
 # Font

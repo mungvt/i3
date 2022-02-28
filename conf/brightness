@@ -1,3 +1,0 @@
-set $brightness_step 2
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc $brightness_step
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec $brightness_step
