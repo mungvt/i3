@@ -59,7 +59,7 @@ font-3 = "FontAwesome:pixelsize=11;1"
 
 modules-left = i3
 modules-center = date
-modules-right = filesystem pulseaudio powermenu 
+modules-right = filesystem powermenu 
 
 tray-position = right
 tray-padding = 2
