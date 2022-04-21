@@ -1,7 +1,7 @@
 #! /usr/bin/bash
 
 export DISPLAY=:0
-export XAUTHORITY=/home/dawn/.Xauthority
+export XAUTHORITY=$HOME/.Xauthority
 
 function connect(){
     /usr/bin/xrandr --output eDP1 --off\
