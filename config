@@ -5,6 +5,7 @@ include conf/startup.conf
 include conf/workspaces.conf
 include conf/window.conf
 include conf/assign.conf
+include conf/modes.conf
 
 
 set $mod Mod4
@@ -19,20 +20,4 @@ gaps inner 5
 
 # Font
 font pango:DejaVu Sans Mono 8
-# Resize window
-mode "resize" {
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
-
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
-
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
-}
 
